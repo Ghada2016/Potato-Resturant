@@ -1,0 +1,177 @@
+/*General Rules*/
+html{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}/*
+*,*:after,*:before{
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	-o-box-sizing: inherit;
+	
+}*/
+ul{
+    list-style: none
+}
+a{
+    text-decoration: none;
+    color: #f4cc5b
+}
+/*start header*/
+header{
+    
+}
+header nav{
+    background-color: #333;
+    color: #FFF
+}
+header nav .logo{
+    padding-top: 10%;
+    padding-bottom: 10%
+}
+header nav .nanbar{
+    text-align: left;
+    display: none
+}
+header nav .nanbar ul{
+    padding-left: 0;
+}
+header nav .nanbar li {
+    border: 1px solid #FFF;
+    margin-top: 5%;
+    padding: 1%
+}
+/*end header*/
+/*start slider*/
+.bx-wrapper .bx-pager.bx-default-pager a{
+    background-color: #efb719 !important
+}
+.bx-wrapper .bx-pager.bx-default-pager a:focus{
+    background-color: #f4cc5b !important
+}
+.bxslider img{
+	width: 100%
+}
+/*end slider*/
+
+/*start about us*/
+.about{
+    
+}
+.about .row .col img{
+    width: 100%
+}
+.about .row .col h2{
+    color: #f4cc5b;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Domine', serif;
+}
+.about .row .col span{
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    
+}
+.about .row .col p{
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Domine', serif;;
+    line-height: 1.7;
+    text-align: justify    
+}
+.about .row .col button{
+    background: 0;
+    border-radius: 10px;
+    padding: 5px
+}
+.about .row .col span:nth-child(5){
+    margin-left: 10px;
+    background-color: #f4cc5b;
+    border-radius: 4px 5px 10px;
+    padding: 5px;
+    margin-left: -5px
+      
+}
+/*end about us*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*My Framework*/
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+.overlay{
+    position:absolute;
+    background: rgba(51,51,51,.8);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left:0;
+}
+.text-center{
+    text-align: center
+}
+.clear{
+    clear: both
+}
+.separator{
+	border: 1px solid #DDD;
+	width: 140px;
+	margin: auto
+}
+.active{
+    color: #2fac6c !important
+}
+.nav-bg{
+	background: #333
+}
+
+/**************************************Media Query***********************************/
+
+/*Media Queiry*/
+@media screen and (max-width:767px){/*small screen - mobile*/
+	
+    
+    
+}
+@media screen and (min-width:768px) and (max-width:990px){ /*medium screen - tablets*/
+	
+	
+	
+		
+}
+@media screen and (min-width:991px) and (max-width:1199px){/*Large screen*/
+	.domain .plan ul li{
+        padding: 4%;
+        
+    }
+}
+@media screen and (min-width:1200px){
+    
+}
