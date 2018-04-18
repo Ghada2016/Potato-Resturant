@@ -14,10 +14,15 @@ function myFunction(){
         }); 
     });
 // add and remove class (active)
-    $('li a').click(function () {
-        $('li a.active').removeClass('active');
-        $(this).closest('a').addClass('active');
+    $('li').click(function () {
+        $('li.active').removeClass('active');
+        $(this).closest('li').addClass('active');
     });
+
+
+// trigger mixit up
+var mixer = mixitup('#container');
+
 // scroll
 $(document).scroll(function(){
 	$('nav').css('background-color','#333');

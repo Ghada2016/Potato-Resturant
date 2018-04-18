@@ -18,6 +18,20 @@ a{
     text-decoration: none;
     color: #f4cc5b
 }
+h2{
+    color: #f4cc5b;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Domine', serif;
+    text-align: left
+}
+p{
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Domine', serif;;
+    line-height: 1.7;
+    text-align: justify
+}
 /*start header*/
 header{
     
@@ -74,31 +88,147 @@ header nav .nanbar li {
     font-size: 20px;
     
 }
-.about .row .col p{
-    font-family: 'Indie Flower', cursive;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Domine', serif;;
-    line-height: 1.7;
-    text-align: justify    
-}
+
 .about .row .col button{
     background: 0;
-    border-radius: 10px;
-    padding: 5px
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 15px;
+    border-right: transparent;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+    
 }
-.about .row .col span:nth-child(5){
-    margin-left: 10px;
+.about .row .col button:hover,
+.about .row .col button:focus{
+    font-weight: bold
+}
+.about .row .col button .svg-inline--fa{
     background-color: #f4cc5b;
-    border-radius: 4px 5px 10px;
-    padding: 5px;
-    margin-left: -5px
-      
+    border-radius: 0 20px 20px 0;
+    padding: 5px 10px;
+    margin: -6px -1px;
+    margin-right: -10px
 }
 /*end about us*/
+/*start dishes*/
+.dishes{
+    padding-top: 5%;
+    
+}
+.dishes ul{
+    padding-left: 0;
+    margin-bottom: 25px
+}
+.dishes ul li{
+    display: inline-block;
+    margin-right: 7px;
+    font-size: 17px;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+}
+.dishes .mix{
+    position: relative
+}
+.dishes img{
+    width: 332px;
+    height: 200px;
+    margin-bottom: 10px;
+    
+}
+/*end dishes*/
 
+/*start testimonials*/
+.testimonials{
+    background-color: #333;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    margin-top: 10%
+}
+.testimonials span{
+    color: #fff;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+}
+.testimonials .row .col {
+    margin-top: 10%;
+    
+}
+.testimonials .row .col .review{
+    background-color: #fff;
+    padding: 3%;
+    border-radius: 5px
+}
 
+.testimonials .row .col p{
+    text-align: center
+}
+.testimonials .row .col .triangle{
+    width: 0;
+    border-top: 20px solid #FFF;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    margin: auto
+}
+.testimonials .row .col .client{
+    margin-top: 5%
+}
+.testimonials .row .col img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.testimonials .row .col .name{
+    color: #ffc728;
+     font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+}
+/*end testimonials*/
 
+/*start subscribe*/
+.subscribe{
+    background-color: #f4cc5b;
+    padding: 10% 0
+}
+.subscribe .title{
+    margin-bottom: 5%;
+    text-transform:capitalize;
+    color: #f5f5f5;
+    font-size: 25px
+}
+.subscribe input{
+    background: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    font-size: 15px
+}
+.subscribe input[type='button']{
+    background-color: #fff;
+    color: #f4cc5b
+}
+::placeholder{
+    color: #f5f5f5;
+}
+/*end subscribe*/
 
+/*start reservation*/
+.book{
+    background-image: url(../images/our%20restaurant.jpg);
+    background-size: cover;
+    height:300px;
+    padding-top: 5%
+}
+.book h2{
+    text-align: center;
+    font-size: 30px
+}
+.book span{
+    color: #fff;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+}
+/*end reservation*/
 
 
 
@@ -128,11 +258,17 @@ header nav .nanbar li {
 }
 .overlay{
     position:absolute;
-    background: rgba(51,51,51,.8);
-    top: 0;
+    background: rgba(51,51,51,.4);
+    top: 150px;
     right: 0;
-    bottom: 0;
     left:0;
+    height: 50px;
+    width: 332px;
+    color: #fff;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+    line-height: 2.5
+    
 }
 .text-center{
     text-align: center
@@ -146,7 +282,8 @@ header nav .nanbar li {
 	margin: auto
 }
 .active{
-    color: #2fac6c !important
+    color: #f4cc5b !important;
+    text-decoration: underline
 }
 .nav-bg{
 	background: #333
