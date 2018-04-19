@@ -10,7 +10,9 @@ function myFunction(){
     $(document).ready(function () {
         $('.bxslider').bxSlider({
             mode: 'fade',
-            captions : true
+            captions : true,
+            auto : true,
+            speed : 400
         }); 
     });
 // add and remove class (active)
@@ -23,10 +25,15 @@ function myFunction(){
 // trigger mixit up
 var mixer = mixitup('#container');
 
-// scroll
-$(document).scroll(function(){
-	$('nav').css('background-color','#333');
+// nicescroll
+$("body").niceScroll({
+	cursorcolor : "#f4cc4b",
 });
+
+// scroll
+//$(document).scroll(function(){
+	//$('nav').css('background-color','#333');
+//});
 
 // Html animate
     $('nav li a').click(function () {
